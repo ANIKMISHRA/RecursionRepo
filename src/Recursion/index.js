@@ -18,6 +18,5 @@ const Transform = (object) => {
 };
 // calling function
 const result = Transform(TravelingVehiclesTypes);
-console.log(result);
 // exporting to access data in other files through importing.
 export default result;
