@@ -1,9 +1,16 @@
-import React from 'react'
-import './App.css'
+// Package
+import React from 'react';
+
+// Component
+import Menu from './DisplayData/index';
+// Transforming data
+import result from './Recursion/index';
 
 const App = () => (
-  <div className="App">
-    <h1>hii</h1>
+  <div>
+    <Menu place={result} />
   </div>
-)
-export default App
+);
+
+// exporting to access data in other files through importing.
+export default App;
