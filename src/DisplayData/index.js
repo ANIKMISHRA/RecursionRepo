@@ -15,7 +15,7 @@ const Menu = (props) => {
   return (
     <ul>
       {/* map function used to iterate over an array
-        most commonly user for rendering a list of data to the DOM */}
+        most commonly use for rendering a list of data to the DOM */}
       {place.map((m) => (
         <li key={m.key}>
           {m.value}
@@ -25,5 +25,5 @@ const Menu = (props) => {
     </ul>
   );
 };
-// exporting to access data in other files through importing.
+// exporting to access data in other files by importing.
 export default Menu;
