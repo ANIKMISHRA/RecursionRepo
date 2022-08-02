@@ -16,12 +16,14 @@ const Menu = (props) => {
     <ul>
       {/* map function used to iterate over an array
         most commonly use for rendering a list of data to the DOM */}
-      {place.map((m) => (
-        <li key={m.key}>
-          {m.value}
-          {m.children && <Menu place={m.children} />}
-        </li>
-      ))}
+      {place.map((m) => {
+        return (
+          <li key={m.key}>
+            {m.value}
+            {m.children && <Menu place={m.children} />}
+          </li>
+        );
+      })}
     </ul>
   );
 };

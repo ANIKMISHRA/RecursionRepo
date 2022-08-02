@@ -45,6 +45,7 @@
                 }
             ],
             "semi":2,
-            "comma-dangle":0
+            "comma-dangle":0,
+            "arrow-body-style": ["error", "always"]
     }
 }
